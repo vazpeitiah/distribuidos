@@ -1,7 +1,7 @@
 # Desarrollo de Sistemas Distribuidos
 
 ## Información básica:  
-ESCOM IPN ISC
+ESCOM IPN ISC  
 **Grupo:** 4CV2  
 **Profesor:** Carlos Pineda Guerrero  
 **Fecha del curso:** Feb 2021 - Jun 2021 Modalidad a Distancia
