@@ -8,7 +8,7 @@ ESCOM IPN ISC
 
 ## Lista de tareas
 |Nombre |Descripción |Fecha|
---- | --- | ---
+:--- | :--- | :---:
 📝Tarea 1. Cálculo de PI | Calcular una aproximación de PI utilizando la serie de Gregory-Leibniz.  | 5 Mar 2021
 📝Tarea 2. Uso eficiente de la memoria cache | Multiplicación de matrices AxB, con B^T | 12 Mar 2021
 📝Tarea 3. Multiplicación distribuida de matrices utilizando paso de mensajes | Calcular el producto de 2 matrices cuadradas en forma distribuida sobre 5 nodos. | 19 Mar 2021
