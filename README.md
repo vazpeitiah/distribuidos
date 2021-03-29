@@ -16,8 +16,8 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 4. Implementación de un token-ring | Implementar una topología lógica de anillo (Token-Ring) | 100/100 |24 Mar 2021
 
 **Notas:** 
-- La calificación es el puntaje que obtuve al momento de entregar la calificación. 
-- La tarea 3 está bien, obtuve 50/100 por cambiar el tipo de dato de la matriz C a long
+- La calificación es el puntaje que obtuve al momento de entregar la tarea. 
+- La tarea 3 está bien, obtuve 50/100 por cambiar el tipo de dato de la matriz C a long.
 ## Información extra
 1. Puedes duplicar mi plantilla de [Notion.so](https://www.notion.so/vazpeitiah/Distribuidos-f58b0e3602124b09827a03c755974598). Aquí podrás encontrar más información con respecto a las tareas y apuntes de todas las clases.
 2. Para la plataforma de Moodle del profesor, [ésta extensión](https://chrome.google.com/webstore/detail/enable-right-click-for-go/ofgdcdohlhjfdhbnfkikfeakhpojhpgm?hl=es) puede serte de utilidad. Ya que la plataforma no te deja utilizar el botón derecho, y esto puede resultar bastante molesto.
