@@ -28,3 +28,5 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 - [Desarrollo de Sistemas Distribuidos Ukranio (2019-2) - por MarcoGrimaldo](https://github.com/MarcoGrimaldo/DSD)
 - [SistemasDistribuidos Ukranio (2018-1) - por brokenerk](https://github.com/brokenerk/SistemasDistribuidos)
 - [distribuidos-escom-ukranio (2018-1) - por emiliano080591](https://github.com/emiliano080591/distribuidos-escom-ukranio)
+- [SistemasDistribuidos - por AlanVieyra333](https://github.com/AlanVieyra333/SistemasDistribuidos)
+- [Sistemas_Distribuidos - por CallmeTorre](https://github.com/CallmeTorre/Sistemas_Distribuidos)
