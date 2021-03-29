@@ -25,11 +25,11 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 4. Si ya has utilizado Azure, con tu correo insitucional, te recomiendo que accedas al siguiente [enlace](https://www.microsoftazuresponsorships.com/Balance) para saber tu consumo acutal.
 
 **Otros repositorios de la materia de distribuidos:**  
-- [Sistemas-Distribuidos Carlos Pineda (2021-1) - por Rico Raúl Y Caji Uriel](https://github.com/gren29/Sistemas-Distribuidos) ⭐
-- [Sistemas_Distribuidos Carlos Pineda (2021-1) - por JosueHernandezR](https://github.com/JosueHernandezR/Sistemas_Distribuidos)
-- [Sistemas-Distribuidos (2018) - por Xeanor-V](https://github.com/Xeanor-V/Sistemas-Distribuidos)
-- [Desarrollo de Sistemas Distribuidos Ukranio (2019-2) - por MarcoGrimaldo](https://github.com/MarcoGrimaldo/DSD)
-- [SistemasDistribuidos Ukranio (2018-1) - por brokenerk](https://github.com/brokenerk/SistemasDistribuidos)
-- [distribuidos-escom-ukranio (2018-1) - por emiliano080591](https://github.com/emiliano080591/distribuidos-escom-ukranio)
-- [SistemasDistribuidos - por AlanVieyra333](https://github.com/AlanVieyra333/SistemasDistribuidos)
-- [Sistemas_Distribuidos - por CallmeTorre](https://github.com/CallmeTorre/Sistemas_Distribuidos)
+- [Sistemas-Distribuidos Carlos Pineda (2021-1)](https://github.com/gren29/Sistemas-Distribuidos)  - por Rico Raúl Y Caji Uriel ⭐
+- [Sistemas_Distribuidos Carlos Pineda (2021-1](https://github.com/JosueHernandezR/Sistemas_Distribuidos) ) - por JosueHernandezR
+- [Sistemas-Distribuidos (2018)](https://github.com/Xeanor-V/Sistemas-Distribuidos) - por Xeanor-V
+- [Desarrollo de Sistemas Distribuidos Ukranio (2019-2)](https://github.com/MarcoGrimaldo/DSD) - por MarcoGrimaldo
+- [SistemasDistribuidos Ukranio (2018-1)](https://github.com/brokenerk/SistemasDistribuidos) - por brokenerk
+- [distribuidos-escom-ukranio (2018-1)](https://github.com/emiliano080591/distribuidos-escom-ukranio) - por emiliano080591
+- [SistemasDistribuidos](https://github.com/AlanVieyra333/SistemasDistribuidos) - por AlanVieyra333
+- [Sistemas_Distribuidos](https://github.com/CallmeTorre/Sistemas_Distribuidos) - por CallmeTorre
