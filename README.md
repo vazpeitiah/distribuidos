@@ -1,6 +1,7 @@
 # Desarrollo de Sistemas Distribuidos
 
-## Información básica:  
+Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el profesor Carlos Pineda de la ESCOM  
+
 **Programa:** ESCOM ISC Plan 2009    
 **Grupo:** 4CV2  
 **Profesor:** Carlos Pineda Guerrero  
