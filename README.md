@@ -19,3 +19,11 @@
 2. Para la plataforma de Moodle del profesor, [ésta extensión](https://chrome.google.com/webstore/detail/enable-right-click-for-go/ofgdcdohlhjfdhbnfkikfeakhpojhpgm?hl=es) puede serte de utilidad. Ya que la plataforma no te deja utilizar el botón derecho, y esto puede resultar bastante molesto.
 3. El profesor utiliza los servicios de [Microsoft Azure](http://azure.microsoft.com/), por lo que te recomiendo que ya tengas tu correo institucional o lo tramites de inmediato. El IPN nos proporciona $100usd para gastarlos en los servicios de Azure. 
 4. Si ya has utilizado Azure, con tu correo insitucional, te recomiendo que accedas al siguiente [enlace](https://www.microsoftazuresponsorships.com/Balance) para saber tu consumo acutal.
+
+### Otros repositorios de la materia de distribuidos
+- [Sistemas-Distribuidos Carlos Pineda (2021-1) - por Rico Raúl Y Caji Uriel](https://github.com/gren29/Sistemas-Distribuidos)
+- [Sistemas_Distribuidos Carlos Pineda (2021-1) - por JosueHernandezR](https://github.com/JosueHernandezR/Sistemas_Distribuidos)
+- [Sistemas-Distribuidos (2018) - por Xeanor-V](https://github.com/Xeanor-V/Sistemas-Distribuidos)
+- [Desarrollo de Sistemas Distribuidos Ukranio (2019-2) - por MarcoGrimaldo](https://github.com/MarcoGrimaldo/DSD)
+- [SistemasDistribuidos Ukranio (2018-1) - por brokenerk](https://github.com/brokenerk/SistemasDistribuidos)
+- [distribuidos-escom-ukranio (2018-1) - por emiliano080591](https://github.com/emiliano080591/distribuidos-escom-ukranio)
