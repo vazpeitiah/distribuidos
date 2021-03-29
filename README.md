@@ -24,7 +24,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 3. El profesor utiliza los servicios de [Microsoft Azure](http://azure.microsoft.com/), por lo que te recomiendo que ya tengas tu correo institucional o lo tramites de inmediato. El IPN nos proporciona $100usd para gastarlos en los servicios de Azure. 
 4. Si ya has utilizado Azure, con tu correo insitucional, te recomiendo que accedas al siguiente [enlace](https://www.microsoftazuresponsorships.com/Balance) para saber tu consumo acutal.
 
-### Otros repositorios de la materia de distribuidos
+**Otros repositorios de la materia de distribuidos:**  
 - [Sistemas-Distribuidos Carlos Pineda (2021-1) - por Rico Raúl Y Caji Uriel](https://github.com/gren29/Sistemas-Distribuidos) ⭐
 - [Sistemas_Distribuidos Carlos Pineda (2021-1) - por JosueHernandezR](https://github.com/JosueHernandezR/Sistemas_Distribuidos)
 - [Sistemas-Distribuidos (2018) - por Xeanor-V](https://github.com/Xeanor-V/Sistemas-Distribuidos)
