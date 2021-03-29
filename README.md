@@ -9,10 +9,10 @@ ESCOM IPN ISC
 ## Lista de tareas
 |Nombre |Descripción |Fecha|
 --- | --- | ---
-📝Tarea 1. Cálculo de PI | Desarrollar un programa distribuido, el cual calculará una aproximación de PI utilizando la serie de Gregory-Leibniz.  | 5 Mar 2021
-📝Tarea 2. Uso eficiente de la memoria cache | Compilar y ejecutar los programas MultiplicaMatriz.java y MultiplicaMatriz2.java que vimos en clase, para los siguientes valores de N: 100, 200, 300, 500, 1000 Utilizando Excel hacer una gráfica de dispersión (con líneas, sin marcadores) dónde se muestre el tiempo de ejecución de ambos programas con respecto a N (N en el eje X y el tiempo en el eje Y). | 12 Mar 2021
-📝Tarea 3. Multiplicación distribuida de matrices utilizando paso de mensajes | desarrollar un solo programa en Java, el cual calculará el producto de dos matrices cuadradas en forma distribuida sobre cinco nodos. | 19 Mar 2021
-📝Tarea 4. Implementación de un token-ring | Desarrollar un programa en Java, el cual implementará un token que pasará de un nodo a otro nodo, en una topología lógica de anillo | 24 Mar 2021
+📝Tarea 1. Cálculo de PI | Calcular una aproximación de PI utilizando la serie de Gregory-Leibniz.  | 5 Mar 2021
+📝Tarea 2. Uso eficiente de la memoria cache | Multiplicación de matrices AxB, con B^T | 12 Mar 2021
+📝Tarea 3. Multiplicación distribuida de matrices utilizando paso de mensajes | Calcular el producto de 2 matrices cuadradas en forma distribuida sobre 5 nodos. | 19 Mar 2021
+📝Tarea 4. Implementación de un token-ring | Implementar una topología lógica de anillo (Token-Ring) | 24 Mar 2021
 
 ## Información extra
 1. Puedes duplicar mi plantilla de [Notion.so](https://www.notion.so/vazpeitiah/Distribuidos-f58b0e3602124b09827a03c755974598). Aquí podrás encontrar más información con respecto a las tareas y apuntes de todas las clases.
