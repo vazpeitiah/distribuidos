@@ -7,7 +7,7 @@ ESCOM IPN ISC
 **Fecha del curso:** Feb 2021 - Jun 2021 Modalidad a Distancia
 
 ## Lista de tareas
-|Nombre |Descripción |Fecha|
+|Nombre |Descripción |Fecha de evaluación|
 :--- | :--- | :---:
 📝Tarea 1. Cálculo de PI | Calcular una aproximación de PI utilizando la serie de Gregory-Leibniz.  | 5 Mar 2021
 📝Tarea 2. Uso eficiente de la memoria cache | Multiplicación de matrices AxB, con B^T | 12 Mar 2021
