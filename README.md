@@ -25,7 +25,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 4. Si ya has utilizado Azure, con tu correo insitucional, te recomiendo que accedas al siguiente [enlace](https://www.microsoftazuresponsorships.com/Balance) para saber tu consumo acutal.
 
 **Otros repositorios de la materia de distribuidos:**  
-- [Desarrollo-de-Sistemas-Distribuidos (2021-1)](https://github.com/Wicho1313/Desarrollo-de-Sistemas-Distribuidos)  - por Wicho1313 ⭐
+- [Desarrollo-de-Sistemas-Distribuidos Carlos Pineda (2021-1)](https://github.com/Wicho1313/Desarrollo-de-Sistemas-Distribuidos)  - por Wicho1313 ⭐
 - [Sistemas-Distribuidos Carlos Pineda (2021-1)](https://github.com/gren29/Sistemas-Distribuidos)  - por Rico Raúl Y Caji Uriel ⭐
 - [Sistemas_Distribuidos Carlos Pineda (2021-1](https://github.com/JosueHernandezR/Sistemas_Distribuidos) ) - por JosueHernandezR
 - [Sistemas-Distribuidos (2018)](https://github.com/Xeanor-V/Sistemas-Distribuidos) - por Xeanor-V
