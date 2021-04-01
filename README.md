@@ -20,7 +20,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 - La tarea 3 está bien, obtuve 50/100 por cambiar el tipo de dato de la matriz C a long.
 
 ## Exámenes
-- Examen 1er Parcial (31 mar 2021) - La carpeta contiene 2 exámenes diferentes y otros archivos PDF con los preguntas de los kahoots que se hicieron en el primer parcial.
+1. Examen 1er Parcial (31 mar 2021) - La carpeta contiene 2 exámenes diferentes y otros archivos PDF con los preguntas de los kahoots que se hicieron en el primer parcial.
 
 ## Información extra
 1. Puedes duplicar mi plantilla de [Notion.so](https://www.notion.so/vazpeitiah/Distribuidos-f58b0e3602124b09827a03c755974598). Aquí podrás encontrar más información con respecto a las tareas y apuntes de todas las clases.
