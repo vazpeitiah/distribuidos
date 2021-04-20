@@ -7,7 +7,7 @@ CLASSES = \
         InterfaceRMI.java \
         ClaseRMI.java \
         ClienteRMI.java \
-	ServidorRMI.java 
+		ServidorRMI.java 
 
 default: classes
 
