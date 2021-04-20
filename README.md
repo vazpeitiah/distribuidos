@@ -15,6 +15,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 3. Multiplicación distribuida de matrices utilizando paso de mensajes | Calcular el producto de 2 matrices cuadradas en forma distribuida sobre 5 nodos. | 50/100 |19 Mar 2021
 📝Tarea 4. Implementación de un token-ring | Implementar una topología lógica de anillo (Token-Ring) | 100/100 |24 Mar 2021
 📝Tarea 5. Chat multicast | Implementar un chat multicast | - |19 Abr 2021
+📝Tarea 6. Multiplicación de matrices utilizando objetos distribuidos | Multiplicación de 2 matrices cuadradas, usando RMI | - |23 Abr 2021
 
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
