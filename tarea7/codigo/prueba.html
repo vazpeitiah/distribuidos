@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+		<meta name="author" content="Carlos Pineda Guerrero, 2021">
+ 		<script src='/WSClient.js'></script>
+		<script>
+			var foto = null;  // por default la foto es nula
+			function get(id)
+			{
+				return document.getElementById(id);
+			}
+			function muestra(elemento)
+			{
+				elemento.style.display = "block";
+			}
+
+			function oculta(elemento)
+			{
+				elemento.style.display = "none";
+			}
+			function muestra_pantalla(elemento)
+			{
+				oculta(get("menu"));
+				muestra(elemento);
+			}
+			function oculta_pantalla(elemento)
+			{
+				oculta(elemento);
+				muestra(get("menu"));
+			}
+                	function readSingleFile(files,imagen)
+                	{
+                        	var file = files[0];
+                        	if (!file) return;
+                        	var reader = new FileReader();
+                        	reader.onload = function(e)
+                        	{
+					imagen.src = reader.result;
+					// reader.result incluye al principio: "data:image/jpeg;base64,"
+					foto = reader.result.split(',')[1];
+                        	};
+				reader.readAsDataURL(file);
+                	}
+			function limpia_alta()
+			{
+				get("alta_email").value = "";
+				get("alta_nombre").value = "";
+				get("alta_apellido_paterno").value = "";
+				get("alta_apellido_materno").value = "";
+				get("alta_fecha_nacimiento").value = "";
+				get("alta_telefono").value = "";
+				get("alta_genero").value = "";
+				get("alta_imagen").src = "/usuario_sin_foto.png";
+			}
+			function alta()
+			{
+				var cliente = new WSClient("/Servicio/rest/ws");
+				var genero = get("alta_genero").value;
+				// da de alta el usuario, si el email ya existe regresa error
+				cliente.post("alta_usuario",
+				{
+					usuario:
+					{
+						email: get("alta_email").value,
+						nombre: get("alta_nombre").value,
+						apellido_paterno: get("alta_apellido_paterno").value,
+						apellido_materno: get("alta_apellido_materno").value,
+						fecha_nacimiento: get("alta_fecha_nacimiento").value,
+						telefono: get("alta_telefono").value,
+						genero: genero == "Masculino" ? "M" : genero == "Femenino" ? "F" : null,
+						foto: foto
+					}
+				},
+				function(code,result)
+				{
+					if (code == 200)
+						alert("El usuario se dio de alta");
+					else
+						alert(JSON.stringify(result));
+				});
+			}
+			function limpia_consulta()
+			{
+				get("consulta_email").value = "";
+				get("consulta_nombre").value = "";
+				get("consulta_apellido_paterno").value = "";
+				get("consulta_apellido_materno").value = "";
+				get("consulta_fecha_nacimiento").value = "";
+				get("consulta_telefono").value = "";
+				get("consulta_genero").value = "";
+				get("consulta_imagen").src = "/usuario_sin_foto.png";
+			}
+			function consulta()
+			{
+				var cliente = new WSClient("/Servicio/rest/ws");
+				cliente.post("consulta_usuario",
+				{
+					// se debe pasar como parametro el email del usuario a consultar
+					// si el usuario no existe regresa un error
+					email: get("consulta_email").value
+				},
+				function(code,result)
+				{
+					if (code == 200)
+					{
+						limpia_consulta();
+						get("consulta_email").value = result.email;
+						get("consulta_nombre").value = result.nombre;
+						get("consulta_apellido_paterno").value = result.apellido_paterno;
+						get("consulta_apellido_materno").value = result.apellido_materno;
+						get("consulta_fecha_nacimiento").value = result.fecha_nacimiento;
+						get("consulta_telefono").value = result.telefono;
+						get("consulta_genero").value = result.genero == "M" ? "Masculino" : result.genero == "F" ? "Femenino" : "";
+						foto = result.foto;
+						get("consulta_imagen").src = "data:image/jpeg;base64," + foto;
+
+						muestra(get("consulta_modifica"));
+						muestra(get("consulta_file"));
+					}
+					else
+						// el objeto "result" es de tipo Error
+						alert(JSON.stringify(result));
+				});
+			}
+			function modifica()
+			{
+				var cliente = new WSClient("/Servicio/rest/ws");
+				cliente.post("modifica_usuario",
+				{
+					usuario:
+					{
+						email: get("consulta_email").value,
+						nombre: get("consulta_nombre").value,
+						apellido_paterno: get("consulta_apellido_paterno").value,
+						apellido_materno: get("consulta_apellido_materno").value,
+						fecha_nacimiento: get("consulta_fecha_nacimiento").value,
+						telefono: get("consulta_telefono").value,
+						genero: get("consulta_genero").value == "Masculino" ? "M" :
+							get("consulta_genero").value == "Femenino" ? "F" : 
+							null,
+						foto: foto
+					}
+				},
+				function(code,result)
+				{
+					if (code == 200)
+						alert("El usuario se modificó");
+					else
+						alert(JSON.stringify(result));
+				});
+			}
+                        function limpia_borra()
+                        {
+                                get("borra_email").value = "";
+                        }
+                        function borra()
+                        {
+                                var client = new WSClient("/Servicio/rest/ws");
+                                client.post("borra_usuario",
+                                        {
+                                                email: get("borra_email").value
+                                        },
+                                        function(code,result)
+                                        {
+                                                if (code == 200)
+                                                        alert("El usuario se borró");
+                                                else
+                                                        alert(JSON.stringify(result));
+                                        });
+                        }
+		</script>
+	</head>
+	<body>
+		<div id="alta_usuario" style="display:none">
+			<h2>Alta de usuario</h2>
+			Email *<br>
+			<input type="email" id="alta_email" value=""/><br>
+			Nombre *<br>
+			<input type="text" id="alta_nombre" value=""/><br>
+			Apellido paterno *<br>
+			<input type="text" id="alta_apellido_paterno" value=""/><br>
+			Apellido materno<br>
+			<input type="text" id="alta_apellido_materno" value=""/><br>
+			Fecha de nacimiento *<br>
+			<input type="date" id="alta_fecha_nacimiento" value=""/><br>
+			Teléfono<br>
+			<input type="number" id="alta_telefono" value=""/><br>
+			Genero<br>
+			<select id="alta_genero">
+				<option></option>
+				<option>Masculino</option>
+				<option>Femenino</option>
+			</select>
+			<br>
+			<br>
+			<img id="alta_imagen" width="100px" src="/usuario_sin_foto.png"></img><br>
+			<input type="file" onchange="readSingleFile(files,get('alta_imagen'))" multiple="false" accept="image/*"/><br>
+			<br>
+			<button type="button" onclick="alta()" style="width:200px">Alta</button></br>
+			<button type="button" onclick="oculta_pantalla(get('alta_usuario'))" style="width:200px">Regresa</button></br>
+		</div>
+
+		<div id="consulta_usuario" style="display:none">
+			<h2>Consulta/Modifica usuario</h2>
+			Email *<br>
+			<input type="email" id="consulta_email" value=""/><br>
+			Nombre *<br>
+			<input type="text" id="consulta_nombre" value=""/><br>
+			Apellido paterno *<br>
+			<input type="text" id="consulta_apellido_paterno" value=""/><br>
+			Apellido materno<br>
+			<input type="text" id="consulta_apellido_materno" value=""/><br>
+			Fecha de nacimiento *<br>
+			<input type="date" id="consulta_fecha_nacimiento" value=""/><br>
+			Teléfono<br>
+			<input type="number" id="consulta_telefono" value=""/><br>
+			Genero<br>
+			<select id="consulta_genero">
+				<option></option>
+				<option>Masculino</option>
+				<option>Femenino</option>
+			</select>
+			<br>
+			<br>
+			<img id="consulta_imagen" width="100px" src="/usuario_sin_foto.png"></img>
+			<input type="file" id="consulta_file" onchange="readSingleFile(files,get('consulta_imagen'))" multiple="false" accept="image/*" style="display:none"/><br>
+			<br>
+			<button type="button" onclick="consulta()" style="width:200px">Consulta</button></br>
+			<div id="consulta_modifica" style="display:none">
+				<button type="button" onclick="modifica()" style="width:200px">Modifica</button></br>
+			</div>
+			<button type="button" onclick="oculta_pantalla(get('consulta_usuario'));
+							oculta(get('consulta_modifica'));
+							oculta(get('consulta_file'));" style="width:200px">Regresa</button></br>
+		</div>
+
+		<div id="borra_usuario" style="display:none">
+			<h2>Borra usuario</h2>
+			Email *<br>
+			<input type="email" id="borra_email" value=""/><br><br>
+			<button type="button" onclick="borra()" style="width:200px">Borra</button></br>
+			<button type="button" onclick="oculta_pantalla(get('borra_usuario'))" style="width:200px">Regresa</button></br>
+		</div>
+
+		<div id="menu">
+			<button type="button" onclick="limpia_alta();muestra_pantalla(get('alta_usuario'))" style="width:200px">Alta usuario</button></br>
+			<button type="button" onclick="limpia_consulta();muestra_pantalla(get('consulta_usuario'))" style="width:200px">Consulta usuario</button></br>
+			<button type="button" onclick="limpia_borra();muestra_pantalla(get('borra_usuario'))" style="width:200px">Borra usuario</button></br>
+		</div>
+	</body>
+</html>

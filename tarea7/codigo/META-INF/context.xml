@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/datasource_Servicio" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000"
+		username="" password=""
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/servicio_web?serverTimezone=UTC"/>
+</Context>
