@@ -16,7 +16,8 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 4. Implementación de un token-ring | 100/100 |24 Mar 2021
 📝Tarea 5. Chat multicast | 100/100 |19 Abr 2021
 📝Tarea 6. Multiplicación de matrices utilizando objetos distribuidos | 100/100 |23 Abr 2021
-📝Tarea 7. Implementación de un servicio web estilo REST | - | 06 May 2021
+📝Tarea 7. Implementación de un servicio web estilo REST | 100/100 | 06 May 2021
+📝Tarea 8. Desarrollo de un cliente para un servicio web REST | - | 13 May 2021
 
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
