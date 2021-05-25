@@ -19,6 +19,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 7. Implementación de un servicio web estilo REST | 100/100 | 06 May 2021
 📝Tarea 8. Desarrollo de un cliente para un servicio web REST | 100/100 | 13 May 2021
 📝Tarea 9. Instalación de NFS en la nube | - | 26 May 2021
+📝Tarea 10. Replicación de un servidor en la nube | - | 31 May 2021
 
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
