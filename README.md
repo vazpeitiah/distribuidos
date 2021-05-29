@@ -20,7 +20,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 8. Desarrollo de un cliente para un servicio web REST | 100/100 | 13 May 2021
 📝Tarea 9. Instalación de NFS en la nube | - | 26 May 2021
 📝Tarea 10. Replicación de un servidor en la nube | - | 31 May 2021
-
+📝Tarea 11. Respaldo y restauración de una máquina virtual en la nube | - | 31 May 2021
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
 - La tarea 3 está bien, obtuve 50/100 por cambiar el tipo de dato de la matriz C a long.
