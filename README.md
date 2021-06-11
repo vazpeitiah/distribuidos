@@ -32,7 +32,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 
 2️⃣ **Examen 2do Parcial (06 may 2021)** - La carpeta ``2do_examen/`` contiene 1 exámen contestado y evaluado del segundo parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el segundo parcial y apuntes las clases.
 
-3️⃣ **Examen 3er Parcial (14 jun 2021)** - La carpeta ``3er_examen/`` contiene 1 exámen contestado y evaluado del tercer parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el tercer parcial y apuntes las clases.
+3️⃣ **Examen 3er Parcial (16 jun 2021)** - La carpeta ``3er_examen/`` contiene 1 exámen contestado y evaluado del tercer parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el tercer parcial y apuntes las clases.
 
 ## Información extra
 1. [Próximamente] Puedes duplicar mi plantilla de [Notion.so](https://www.notion.so/vazpeitiah/Distribuidos-f58b0e3602124b09827a03c755974598). Aquí podrás encontrar más información con respecto a las tareas y apuntes de todas las clases.
