@@ -18,9 +18,10 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 6. Multiplicación de matrices utilizando objetos distribuidos | 100/100 |23 Abr 2021
 📝Tarea 7. Implementación de un servicio web estilo REST | 100/100 | 06 May 2021
 📝Tarea 8. Desarrollo de un cliente para un servicio web REST | 100/100 | 13 May 2021
-📝Tarea 9. Instalación de NFS en la nube | - | 26 May 2021
-📝Tarea 10. Replicación de un servidor en la nube | - | 31 May 2021
+📝Tarea 9. Instalación de NFS en la nube | 100/100  | 26 May 2021
+📝Tarea 10. Replicación de un servidor en la nube | 100/100  | 31 May 2021
 📝Tarea 11. Respaldo y restauración de una máquina virtual en la nube | - | 04 Jun 2021
+📝Tarea 12: Creación de la imagen de una máquina virtual y creación de máquinas virtuales a partir de la imagen | - | 14 Jun 2021
 
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
@@ -29,7 +30,9 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 ## Exámenes
 1️⃣ **Examen 1er Parcial (31 mar 2021)** - La carpeta ``1er_examen/`` contiene 3 exámenes diferentes, contestados y evaluados, del primer parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el primer parcial y apuntes las clases.
 
-2️⃣ **Examen 2do Parcial (06 mar 2021)** - La carpeta ``2do_examen/`` contiene 1 exámen contestado y evaluado del segundo parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el segundo parcial y apuntes las clases.
+2️⃣ **Examen 2do Parcial (06 may 2021)** - La carpeta ``2do_examen/`` contiene 1 exámen contestado y evaluado del segundo parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el segundo parcial y apuntes las clases.
+
+3️⃣ **Examen 3er Parcial (14 jun 2021)** - La carpeta ``3er_examen/`` contiene 1 exámen contestado y evaluado del tercer parcial. Además hay otros archivos PDF con las preguntas de los kahoots que se hicieron en el tercer parcial y apuntes las clases.
 
 ## Información extra
 1. [Próximamente] Puedes duplicar mi plantilla de [Notion.so](https://www.notion.so/vazpeitiah/Distribuidos-f58b0e3602124b09827a03c755974598). Aquí podrás encontrar más información con respecto a las tareas y apuntes de todas las clases.
