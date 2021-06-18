@@ -21,7 +21,7 @@ Repositorio de la clase Desarrollo de sistemas distribuidos impartida por el pro
 📝Tarea 9. Instalación de NFS en la nube | 100/100  | 26 May 2021
 📝Tarea 10. Replicación de un servidor en la nube | 100/100  | 31 May 2021
 📝Tarea 11. Respaldo y restauración de una máquina virtual en la nube | 100/100 | 04 Jun 2021
-📝Tarea 12: Creación de la imagen de una máquina virtual y creación de máquinas virtuales a partir de la imagen | - | 14 Jun 2021
+📝Tarea 12: Creación de la imagen de una máquina virtual y creación de máquinas virtuales a partir de la imagen | 100/100 | 14 Jun 2021
 
 **Notas:** 
 - La calificación es el puntaje que obtuve al momento de entregar la tarea. 
